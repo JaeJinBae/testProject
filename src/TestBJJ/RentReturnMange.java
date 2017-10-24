@@ -43,16 +43,16 @@ public class RentReturnMange extends JFrame {
 		panel_2.setToolTipText("");
 		panel_2.setBounds(0, 0, 759, 172);
 		panel.add(panel_2);
+		panel_2.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("New label");
+		JLabel lblNewLabel = new JLabel("회원코드");
+		lblNewLabel.setBounds(36, 8, 48, 15);
 		panel_2.add(lblNewLabel);
 		
 		textField = new JTextField();
+		textField.setBounds(96, 5, 116, 21);
 		panel_2.add(textField);
 		textField.setColumns(10);
-		
-		JLabel lblNewLabel_1 = new JLabel("New label");
-		panel_2.add(lblNewLabel_1);
 		
 		JPanel panel_3 = new JPanel();
 		panel_3.setBounds(0, 172, 759, 172);
